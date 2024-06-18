@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /*CSS Reset*/
 
 /* Box sizing rules */
@@ -79,4 +81,97 @@ textarea:not([rows]) {
 body {
     background-color: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 5rem;
 }
+
+.header-section {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     max-height: 2.5rem;
+}
+
+.player-info-summary, .navigation-menu, .vital-info-summary {
+    display: flex;
+ }
+
+ /*Profile legend styling*/
+
+.player-profile-avatar {
+    margin-right: 1rem;
+}
+
+.profile-pic {
+    height: 6rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.gamertag-summary {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: .625rem;
+}
+
+.gamertag-summary h2 {
+    letter-spacing: 0.75px;
+}
+
+.gamertag-summary p {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 0.625rem;
+    padding: 1px 5px;
+    border-radius: 5px;
+    
+}
+
+.player-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.player-stats {
+    font-size: 1.5rem;
+}
+
+.player-stats img {
+    margin-right: 0.5rem;
+}
+
+.gamerscore, .achievements-unlocked {
+    display: flex;
+
+}
+
+/*Nav menu and status symbol styling*/
+
+.navigation-menu {
+        gap: 2rem;
+}
+
+.vital-info-summary {
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navigation-menu img, .vital-info-summary img {
+    height: 2rem;
+}
+
+header {
+  margin-bottom: 20rem;
+}
+
+
+/*Recent Apps Section*/
+
+.recent-apps-carousel {
+  background-color: white;
+  border: solid 2px red;
+}
+
