@@ -28,7 +28,7 @@ export const recentApps = [
   {
     name: "Disney Plus",
     image: "app-icons/disney-plus.jpg",
-    info: "DIsney+",
+    info: "Disney+",
   },
   {
     name: "Netflix",
